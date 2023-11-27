@@ -4,7 +4,7 @@ import Logo from '../../assets/image/logo.png';
 
 const Menu = () => {
     return (
-        <div className='flex p-20 pb-4 justify-between'>
+        <div className='flex p-20 pb-4 justify-between animated'>
             <a href='./'><img src={Logo} alt='logo' className='' /></a>
             <div className='flex justify-evenly mr-32 mt-16 w-36'>
                 <IoMenuOutline className='text-white w-full h-full' />

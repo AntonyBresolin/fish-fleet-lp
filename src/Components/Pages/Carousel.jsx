@@ -23,8 +23,8 @@ const Carousel = () => {
         <div>
             <Slider {...settings}>
                 <FirstPage />
-                <SecondPage />
                 <ThirdPage />
+                <SecondPage />
             </Slider>
         </div>
     );
