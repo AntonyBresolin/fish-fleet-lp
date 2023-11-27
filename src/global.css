@@ -1,0 +1,13 @@
+
+.slick-dots li button:before {
+    color: white; /* Muda a cor dos pontos para branco */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: white; /* Muda a cor do ponto ativo para branco */
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: white; /* Muda a cor das setas para branco */
+  }
