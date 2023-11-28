@@ -1,5 +1,7 @@
 # FishFleet Marketplace
 
+Acesse o site: https://fishfleet.vercel.app/
+
 ## Descrição
 **FishFleet** é uma inovadora plataforma de marketplace destinada ao fascinante mundo do aquarismo. Este projeto é a visão de Antony Henrique Bresolin, um entusiasta de tecnologia e aquarismo, que busca criar uma experiência única para aquaristas de todos os níveis. A plataforma será desenvolvida utilizando React JS e Spring Boot JAVA, proporcionando uma interface amigável e um backend robusto para uma experiência de usuário imersiva e eficiente.
 
