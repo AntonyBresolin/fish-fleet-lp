@@ -1,31 +1,37 @@
-
 .slick-dots li button:before {
-    color: white; /* Muda a cor dos pontos para branco */
-  }
-  
-  .slick-dots li.slick-active button:before {
-    color: white; /* Muda a cor do ponto ativo para branco */
-  }
-  
-  .slick-prev:before,
-  .slick-next:before {
-    color: white; /* Muda a cor das setas para branco */
+  color: white;
+  /* Muda a cor dos pontos para branco */
+}
+
+.slick-dots li.slick-active button:before {
+  color: white;
+  /* Muda a cor do ponto ativo para branco */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+  /* Muda a cor das setas para branco */
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
 
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .animated {
-    animation-name: fadeInUp;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
-  
+}
+
+.animated {
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.bg-second{
+  background-color: #00000080;
+}
