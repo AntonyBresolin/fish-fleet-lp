@@ -22,8 +22,11 @@ export default {
     },
     backgroundImage: {
       'first-page': "url('./assets/image/firstPage.png')",
+      'first-page-mobile': "url('./assets/image/tubaraoMobile.png')",
       'second-page': "url('./assets/image/secondPage.png')",
+      'second-page-mobile': "url('./assets/image/peperMobile.png')",
       'third-page': "url('./assets/image/thirdPage.png')",
+      'third-page-mobile': "url('./assets/image/polvoMobile.png')",
     },
   },
   plugins: [
